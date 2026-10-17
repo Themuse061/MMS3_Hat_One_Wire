@@ -1,5 +1,5 @@
-# Templatka Hat'ów ChainBus
-
+# MMS3 Hat One Wire
+![Board photo](Board_photo.png)
 
 ## Sekcja 0: Jak szybko, dobrze i tanio zrobić hata z dokumentacją
 
@@ -8,7 +8,7 @@ Szybka lista punkcików to wyklepania zanim hat magicznie się zrobi
 1. **Sprawdź istniejące projekty:** Zobacz czy nie ma już jakiegoś hata który robi co potrzebujesz. Zobacz w forkach i poszukaj na githubie po hashtag'ach, jeśli nie to
 2. **Utwórz Fork:** Kliknij przycisk **Fork** w prawym górnym rogu tego repozytorium.
 
-![punkt 1](readme_zdjecia/fork.png)
+
 
 1. **Konfiguracja repozytorium:** Daj mu adekwatną nazwe, i z'clone'uj forka do siebie na pc
 2. **Zasady projektowania:**
