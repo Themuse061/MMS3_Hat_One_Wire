@@ -264,7 +264,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "A"
+      "sch_revision": "V1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -515,7 +515,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MMS3_hat_templates.kicad_pro",
+    "filename": "MMS3_Hat_One_Wire.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -680,12 +680,64 @@
     },
     "net_colors": {},
     "netclass_assignments": {
-      "/Power Connector/VIN_BRD": [
-        "50V",
-        "PWR"
+      "+3V3": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "51"
+      ],
+      "+5V": [
+        "51",
+        "52"
+      ],
+      "/User Area/PC1 (SDA)": [
+        "51"
+      ],
+      "/User Area/PC2 (SCL)": [
+        "52"
+      ],
+      "/User Area/PC3": [
+        "32"
+      ],
+      "/User Area/PD0": [
+        "31"
+      ],
+      "/User Area/PD2": [
+        "33",
+        "51"
+      ],
+      "/User Area/PD3": [
+        "34"
+      ],
+      "GND": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "51",
+        "52"
+      ],
+      "Net-(J701-Pin_2)": [
+        "51"
+      ],
+      "Net-(J702-Pin_2)": [
+        "52"
+      ],
+      "Net-(J703-Pin_2)": [
+        "33",
+        "51"
+      ],
+      "Net-(J704-Pin_2)": [
+        "34"
+      ],
+      "Net-(J705-Pin_2)": [
+        "31"
+      ],
+      "Net-(J706-Pin_2)": [
+        "32"
       ],
       "VIN_CHAINBUS": [
-        "50V",
         "PWR"
       ]
     },
@@ -716,7 +768,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MMS3_Hat_One_Wire.step",
       "svg": "",
       "vrml": ""
     },
@@ -1238,7 +1290,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "#FLG401-402,#FLG601-602,#PWR109-110,#PWR301-317,#PWR401-403,#PWR505,#PWR601-602,#PWR701-703,C301,CN101,CN401,CN601,D101,D301,D401-402,D601,J301,J601-602,R101-102,R301-313,R401-402,R601-602,U102,U301-302,U401-402,U601-602",
+    "used_designators": "#FLG401-402,#FLG601-602,#PWR109-110,#PWR301-317,#PWR401-403,#PWR505,#PWR601-602,#PWR701-727,C301,C401-403,CN101,CN401,CN601,D101,D301,D401-402,D601,D701-708,J301,J401,J601-602,J701-706,R101-102,R301-313,R401-402,R601-602,R701-714,S401,U102,U301-302,U401-402,U601-602,X401",
     "variants": []
   },
   "sheets": [
@@ -1255,8 +1307,8 @@
       "Bus_switch"
     ],
     [
-      "f11c3b61-ae6a-4858-9d37-bbf426f44fb0",
-      "Power Connector"
+      "bf1b56a6-0515-4f4b-bd68-313f328b6e30",
+      "CH32V003"
     ],
     [
       "56050d79-5900-47d6-893d-3da0e8bf5810",
